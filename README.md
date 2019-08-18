@@ -43,12 +43,12 @@ endif
 BENCHMARK takes the the name of the benchmark. For overlapping benchmarks, routine type takes the routine whose overlap needs to be investigated. PROCESSES takes the number of MPI processes for the benchmark run. 
 
 2. Build with:  
-```make
+``` make
 ```
 It will automatically run the benchmark according the configuration file and provides the output.
 
 3. Clean up with:
-```make clean
+``` make clean
 ```
-
+For pinning MPI threads, [Intel](https://software.intel.com/en-us/mpi-developer-reference-linux-environment-variables-for-process-pinning) and [Likwid](https://github.com/RRZE-HPC/likwid/wiki/Likwid-Pin) both are supported. 
 
