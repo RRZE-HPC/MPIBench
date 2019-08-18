@@ -54,3 +54,8 @@ make clean
 ```
 For pinning MPI threads, either [Intel](https://software.intel.com/en-us/mpi-developer-reference-linux-environment-variables-for-process-pinning) and [Likwid](https://github.com/RRZE-HPC/likwid/wiki/Likwid-Pin) can be used. 
 
+## Test-runs
+
+###PingPong
+![alt text][https://github.com/RRZE-HPC/MPIBench/blob/master/Overlap2_run.png]
+
