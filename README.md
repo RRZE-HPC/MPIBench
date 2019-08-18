@@ -56,6 +56,6 @@ For pinning MPI threads, either [Intel](https://software.intel.com/en-us/mpi-dev
 
 ## Test-runs
 
-###PingPong
-![alt text][https://github.com/RRZE-HPC/MPIBench/blob/master/Overlap2_run.png]
+### PingPong
+![alt text](https://github.com/RRZE-HPC/MPIBench/blob/master/Overlap2_run.png)
 
