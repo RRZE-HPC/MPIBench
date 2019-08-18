@@ -40,7 +40,7 @@ OPTIONS +=      -size 1 // smallest data sent between processes
 					
 endif
 ```
-BENCHMARK takes the the name of the benchmark. For overlapping benchmarks, routine type takes the routine whose overlap needs to be investigated. PROCESSES takes the number of MPI processes for the benchmark run. 
+**BENCHMARK** takes the the name of the benchmark. For overlapping benchmarks, **routine_type** takes the routine whose overlap needs to be investigated. **PROCESSES** takes the number of MPI processes for the benchmark run. 
 
 2. Build with:  
 ``` 
