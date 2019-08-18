@@ -1,6 +1,6 @@
 ***
 # MPIBench
-MPIBench is a software that contains benchmark suites used for investigating MPI communication behavior. Benchmarks probe point-to-point communication and the communication/computation overlap. It is written in C language and implemented on top of MPI standard routines. We implemented each routine according to our use case. It is portable and flexible and works with several MPI implemetations. 
+MPIBench is a software that contains benchmark suites used for investigating MPI communication behavior. These benchmarks probe point-to-point communication and the communication/computation overlap. It is written in C language and implemented on top of MPI standard routines. We implemented each routine according to our use case. It is portable and flexible and works with several MPI implemetations. 
 
 It contains following benchmarks:
 1. PingPong
@@ -40,9 +40,9 @@ OPTIONS +=      -size 1 // smallest data sent between processes
 					
 endif
 ```
-**BENCHMARK** takes the the name of the benchmark. For overlapping benchmarks, **routine_type** takes the routine whose overlap needs to be investigated. **PROCESSES** takes the number of MPI processes for the benchmark run. 
+The variable **BENCHMARK** takes the the name of the benchmark. For overlapping benchmarks, the variable **routine_type** takes the routine whose overlap needs to be investigated. The variable **PROCESSES** takes the number of MPI processes for the benchmark run. 
 
-2. Build with:  
+2. To build and run:  
 ``` 
 make
 ```
