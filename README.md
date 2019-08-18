@@ -6,5 +6,5 @@ It contains following benchmarks:
 1. PingPong
 2. PingPing
 3. Overlapping benchmarks:  
-..* Pair-wise routines
-..* Collective routines
+..* Pair-wise routines  
+..* Collective routines  
