@@ -1,8 +1,8 @@
 #Feature options
 
 
-BENCHMARK =	overlap1
-MACRO =		-DOVERLAP
+BENCHMARK =	pingping
+MACRO =		-DPINGPING
 routine_type =  Ibcast
 PROCESSES = 	2
 
